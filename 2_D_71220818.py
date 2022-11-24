@@ -10,11 +10,11 @@ kartu1 = int(kartu1)
 kartu2 = int(kartu2)
 kartu3 = int(kartu3)
 
-if(kartu1 >= 21):
+if(kartu1 > 21):
     print("Jumlah kartu yang dimiliki melebihi batas")
-elif(kartu2 >= 21):
+elif(kartu2 > 21):
     print("Jumlah kartu yang dimiliki melebihi batas")  
-elif(kartu3 >= 21):
+elif(kartu3 > 21):
     print("Jumlah kartu yang dimiliki melebihi batas") 
 elif(kartu1 > kartu2 and kartu1 > kartu3):
     print(nama1, "menang dengan jumlah kartu sebanyak", kartu1)
